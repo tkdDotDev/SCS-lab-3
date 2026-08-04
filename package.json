@@ -1,0 +1,18 @@
+{
+  "name": "reentrancy-lab",
+  "version": "1.0.0",
+  "description": "Unit III / Lecture 1 — runnable demos of the five reentrancy variants (vulnerable + attacker + fixed) for Smart Contract Security.",
+  "scripts": {
+    "test": "hardhat test",
+    "test:1": "hardhat test test/01-single-function.test.js",
+    "test:2": "hardhat test test/02-cross-function.test.js",
+    "test:3": "hardhat test test/03-cross-contract.test.js",
+    "test:4": "hardhat test test/04-read-only.test.js",
+    "test:5": "hardhat test test/05-hook-erc777.test.js",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
