@@ -41,6 +41,11 @@ npm run test:4         # read-only
 npm run test:5         # hook / ERC-777
 ```
 
+## Test Results
+
+![Hardhat Test Results](screenshots/testPass.png)
+
+
 Each test prints before/after balances, so the terminal output alone tells the
 story on camera. Expected result: every `DRAINS/STEALS/INFLATES` test passes
 against the vulnerable contract, and every `BLOCKS/DENIES/KEEPS` test passes

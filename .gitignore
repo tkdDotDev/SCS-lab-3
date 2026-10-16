@@ -5,3 +5,13 @@ coverage/
 coverage.json
 typechain-types/
 .env
+
+# Dependencies and generated files
+node_modules/
+artifacts/
+cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
